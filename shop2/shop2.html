@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RITTIYA_SHOP</title>
+  <link rel="icon" href="/school-shop-frontend/logo.png" type="image/png">
+  <link rel="stylesheet" href="shop2.css">
+</head>
+
+<body>
+
+  <header class="navbar">
+    <div class="logo">RW SHOP</div>
+    <nav>
+      <a href="/school-shop-frontend/index.html">หน้าแรก</a>
+      <a href="/school-shop-frontend/contact.html">ติดต่อเรา</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>เลือกหน้าที่คุณต้องการ</h1>
+    <p>เมื่อยืนยันแล้วไม่สามารถเปลี่ยนแปลงได้</p>
+  </section>
+
+  <!-- ข้อมูลลูกค้า -->
+  <div class="customer-info">
+    <label for="customerName">ชื่อลูกค้า:</label>
+    <input type="text" id="customerName" name="customerName" placeholder="ใส่ชื่อของคุณที่นี่" required>
+    <label for="customerRoom">ห้องที่ให้ไปส่ง:</label>
+    <input type="number" id="customerRoom" name="customerRoom" placeholder="ใส่ห้องที่นี่" required>
+    <label for="customerContact"> เบอร์ติดต่อ:</label>
+    <input type="number" id="customerContact" name="customerContact" placeholder="ใส่เบอร์ติดต่อที่นี่" required>
+  </div>
+
+  <!-- รายการสินค้า (จะถูกเติมด้วย JS) -->
+  <div id="product-list" class="product-list"></div>
+
+  <!-- สรุปยอด -->
+  <div class="order-summary">
+    <h2>💰 สรุปยอดรวม</h2>
+    <p>ราคารวมทั้งหมด: <span id="totalPrice">0.00</span> บาท</p>
+    <button id="confirmOrder">ยืนยันการสั่งซื้อ</button>
+  </div>
+  </div>
+
+  <footer>
+    By Nuttawat Sumploy Dev
+  </footer>
+
+  <script src="shop2.js"></script>
+</body>
+
+</html>
