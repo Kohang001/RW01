@@ -17,6 +17,12 @@ const shops = [
     desc: "By Fah 5/11",
     image: "https://tarad-image.obs.ap-southeast-3.myhuaweicloud.com/shop/j/jjijirjirajiranjiranajiranat/Product/7459702/spd_7a1f25505f_b.jpg",
     link: "shop3/shop3.html"
+  },
+  {
+    name: "LnwZa",
+    desc: "By 5/16",
+    image: "https://tarad-image.obs.ap-southeast-3.myhuaweicloud.com/shop/j/jjijirjirajiranjiranajiranat/Product/7459702/spd_7a1f25505f_b.jpg",
+    link: "shop4/shop4.html"
   }
 ];
 
@@ -39,3 +45,4 @@ shops.forEach(shop => {
 
   shopGrid.appendChild(card);
 });
+
